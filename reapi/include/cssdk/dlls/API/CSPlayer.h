@@ -83,6 +83,7 @@ public:
  	virtual void SetSpawnProtection(float flProtectionTime);
 	virtual void RemoveSpawnProtection();
 	virtual bool HintMessageEx(const char *pMessage, float duration = 6.0f, bool bDisplayIfPlayerDead = false, bool bOverride = false);
+	virtual void Drop_Afk();
 
 	CBasePlayer *BasePlayer() const;
 

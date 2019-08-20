@@ -754,6 +754,13 @@ enum GamedllFunc_CBasePlayer
 	* Params:           (const this, const message[], Float:duration, bool:bDisplayIfPlayerDead, bool:bOverride)
 	*/
 	RG_CBasePlayer_HintMessageEx,
+
+	/*
+	* Description:      Called when a player’s afk is being checked and removed from server.
+	* Return type:      void
+	* Params:           (const this)
+	*/
+	RG_CBasePlayer_Drop_Afk,
 };
 
 /**
